@@ -1,0 +1,20 @@
+{
+	"name": "elbiniou-xspace",
+	"description": "Inheritable namespaces",
+	"repositories": [
+	],
+	"require":
+	{
+
+	},
+	"require-dev": {
+	},
+	"config": {
+		"process-timeout": 600
+	},
+	"autoload": {
+		"psr-4": {
+			"XSpace\\": "source/class"
+		}
+	}
+}
